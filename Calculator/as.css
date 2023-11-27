@@ -1,0 +1,187 @@
+/*login css*/
+.middleform {
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 15% 0 0 30%;
+    width: 600px;
+    box-shadow: 10px 10px 25px grey;
+}
+.namehere {
+    margin: 0 0 0 43.5%;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logtextbox {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 2% 0 0 10%;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.logsubmit {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10em;
+	margin: 5% 0 5% 38%;
+	padding: 1em;
+	background-color: aliceblue;
+	border: none;
+	border-radius: 0.3125rem; 
+    box-shadow: 0px 5px 10px grey;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.linkbutton{
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10em;
+    height: 5em;
+	margin: 20px 0 30px 110px;
+	padding: 1em;
+	background-color: aliceblue;
+	border: none;
+	border-radius: 0.3125rem; 
+    box-shadow: 0px 5px 10px grey;
+    display: inline-block;
+}
+.linktext{
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*calculator css*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+        display: none;
+      }
+      
+.calc {
+    display: inline-block;
+    border: 10px solid black;
+    padding: 50px;
+    max-width: 800px;
+    margin: 1% 0 0 26% ;
+    background: rgb(242, 255, 2);
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.1),
+    0 5px 20px 5px rgba(0, 0, 0, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f7f5eb;
+}   
+.equal {
+    text-align: center;
+}
+.caltextboxin {
+    position:relative;  
+    left:2px;  
+    top:2px;  
+    height:35px;    
+    color:black;  
+    background-color:#cec400;  
+    font-size:21px;  
+    text-align:right;  
+    border-radius: 10px;    
+}
+.options {
+    color:white;  
+    background-color:303030;  
+    width: 50px;  
+    height: 35px;  
+    border-radius: 10px;    
+    cursor:pointer;  
+    font-size: 13px;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+}
+.answer {
+    position:relative;  
+    left:2px;  
+    top:2px;  
+    height:35px;  
+    color:black;  
+    margin-left: 28%;
+    background-color:#cec400;  
+    font-size:21px;  
+    text-align:right;  
+    border-radius: 10px;    
+}
+.button {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 25px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 46%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+	padding: 5px;
+	background-color: #555;
+    border-radius: 10px;
+    width: 50px;
+}
+.signin {
+    text-align: center;
+    margin: 20% 0 0 0;
+}
+
+/*multiplication css*/
+.title{
+    text-align: center;
+    margin: 4% 2% 0 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.multiform {
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1% 0 0 33%;
+    width: 500px;
+    box-shadow: 10px 10px 25px grey;
+}
+.tablehere {
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}.multextbox {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 1% 0 0 39%;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.mulsubmit {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10em;
+	margin: 1% 0 0 45%;
+	padding: 1em;
+	background-color: aliceblue;
+	border: none;
+	border-radius: 0.3125rem; 
+    box-shadow: 0px 5px 10px grey;
+}

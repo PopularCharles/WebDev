@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "./css/nav.css">
+        <link rel="stylesheet" href = "./css/book.css">
+        <title>Book a Flight</title>
+    </head>
+    <body>
+        <div class="topnav-left" style="margin-left: 150px; margin-top: 30px;">
+            <img src="./images/logo.png" alt="logo" style="width: 100px;height: 100px; float: none;">
+            <a style="margin-top: 15px; font-size: 30px;">Swallows</a>
+        </div>
+        <hr style="width: 85%; border: 2px solid rgb(228, 155, 155)">
+        <a class="goback" href="index.html"> Back</a>
+        <div class="bookbox">
+            <h1>Book a flight</h1>
+        </div>
+        <form class="bookform">
+            <div class="line1">
+                <div class="depart">
+                    <label>Departing</label>
+                    <select id="depart" name="depart" required>
+                        <option value="Penang"> Penang </option>
+                        <option value="Kuala Lumpur"> Kuala Lumpur </option>
+                        <option value="Kedah"> Kedah </option>
+                        <option value="Perak"> Perak </option>
+                        <option value="Kelantan"> Kelantan </option>
+                    </select>
+                </div>
+                <div class="dedate">
+                    <label>Departing Date</label>
+                    <input type="date" id="departdate" name="departdate" required>
+                </div>
+            </div>
+            <div class="backorno">
+                <label for="oneway">One Way</label>
+                <input type="Radio" Name="one" ID="oneway" Value="oneway">
+
+                <label for="round">Round Trip</label>
+                <input TYPE="Radio" Name="round" ID="round" Value="round">
+            </div>
+            <div class="line2">
+                <div class="depart">
+                    <label>Arriving</label>
+                    <select id="dubai" name="dubai" required>
+                        <option value="dubai"> Dubai </option>
+                    </select>
+                </div>    
+                <div class="dedate">
+                    <label>Return Date</label>
+                    <input type="date" id="departdate" name="departdate" required>
+                </div>
+            </div>
+            <div class="line3">
+                <div class="passenger">
+                    <label>Number of Passengers</label>
+                    <input type="text" name="adult" id="adult" placeholder="Number of Guest" required>
+                </div>
+                <div class="dedate" style="margin-top: 32px;">
+                    <input type="text" name="infants" id="infants" placeholder="Number of Infants" required>
+                </div>
+            </div>
+            <input class="sub" type="submit" value="Search For Flights">
+
+        </form>
+
+        <footer>
+            <a>Copyright, © 2023 <a href="#">Ng Zhao Hern</a> | <a href="#">Privacy and Policy</a></a>
+        </footer>
+    </body>
+</html>

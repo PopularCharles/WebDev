@@ -1,0 +1,24 @@
+.addtd {
+  width: 93%;
+  height: 50%;
+}
+.savetd {
+  width: 100%;
+}
+.addtextbox{
+  background-color: #082109;
+  color: #ffc422;
+  width: 80%;
+  height: 50%;
+  padding: 20px;
+  margin: 6% 0 0 10%;
+  border-radius: 20px;
+}
+.save {
+  background-color: #c50000;
+  color: #ffffff;
+  margin: 70% 0 0 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
